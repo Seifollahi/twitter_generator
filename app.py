@@ -9,4 +9,10 @@ def main_page():
 	"""
 	return 'Hello'
 
+@app.route('/v1/getinputs')
+def get_inputs():
+	pass
+
+def generate_sugesstions():
+	pass
 	
